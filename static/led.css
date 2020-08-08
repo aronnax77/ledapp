@@ -1,0 +1,11 @@
+body {
+  background: #eee;
+}
+
+.on {
+  background: lightgreen;
+}
+
+.off {
+  background: red;
+}
