@@ -1,11 +1,32 @@
 body {
-  background: #eee;
+  background-image: url("images/raspberrypi.png");
+  background-repeat: repeat;
+}
+
+.outer {
+  width: 48vh;
+  height: 24vh;
+  border-radius: 3vh;
+  margin: 25vh auto;
+  padding: 5vh;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.inner {
+  width: 48vh;
+  height: 24vh;
+  font-size: 24vh;
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.off {
+  background: #f00;
 }
 
 .on {
   background: lightgreen;
-}
-
-.off {
-  background: red;
 }

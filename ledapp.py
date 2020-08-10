@@ -14,8 +14,8 @@ def ledon():
     return render_template("ledon.html")
 
 
-@app.route("/led")
-def led():
+@app.route("/ledtoggle")
+def ledtoggle():
 
     args = request.args
     if args["status"] == "on":

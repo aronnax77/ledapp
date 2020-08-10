@@ -4,7 +4,7 @@ var btn = document.getElementById("ledon");
 btn.addEventListener("click", switchon);
 
 function switchon() {
-  window.location = "/led?status=off";
+  window.location = "/ledtoggle?status=off";
 }
 
 }
